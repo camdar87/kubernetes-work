@@ -33,7 +33,7 @@ env:
   GKE_ZONE: us-central1-f # TODO: update to cluster zone
   DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
   REPOSITORY: docker-flask-app # TODO: update to Artifact Registry docker repository
-  IMAGE: static-site
+  IMAGE: gcr.io/spheric-wonder-402419/github.com/camdar87/kubernetes-work:$SHORT_SHA
 
 jobs:
   setup-build-publish-deploy:
